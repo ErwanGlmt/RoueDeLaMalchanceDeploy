@@ -1,0 +1,26 @@
+@font-face {
+  font-family: "Font";
+  src: url("../assets/Font.otf");
+}
+
+body {
+  background-color: rgb(66, 66, 66);
+}
+
+h1 {
+  color: #e24a2b;
+  font-family: "Font";
+  font-size: 6rem;
+  margin: 1rem;
+}
+
+.button2 {
+  width: 10rem;
+  height: 5rem;
+  background-color: #e24a2b;
+  border: none;
+  border-radius: 1rem;
+  font-size: 2rem;
+  color: whitesmoke;
+  font-family: "Font";
+}

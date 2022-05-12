@@ -1,0 +1,11 @@
+.headerdiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  background-color: #accbe1;
+}
+
+.headerdiv h1 {
+  font-size: 75px;
+}

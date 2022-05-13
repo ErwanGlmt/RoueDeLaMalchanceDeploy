@@ -1,0 +1,101 @@
+@font-face {
+  font-family: "Font";
+  src: url("../assets/indie.ttf");
+}
+
+h1 {
+  color: white;
+  font-family: "Font";
+  font-size: 5rem;
+  padding-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+.font {
+  font-family: "Font";
+  font-size: 1.5rem;
+  color: #e24a2b;
+}
+
+.button2 {
+  width: 10rem;
+  height: 5rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  background-color: #e24a2b;
+  border: none;
+  border-radius: 1rem;
+  font-size: 2rem;
+  color: whitesmoke;
+  font-family: "Font";
+}
+
+.RandomResponse {
+  width: 10rem;
+  height: 5rem;
+  border-radius: 1rem;
+  background-color: whitesmoke;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.iconResponse {
+  font-size: 2.5rem;
+}
+
+.animate {
+  animation-name: shake;
+  animation-duration: 1s;
+}
+
+@keyframes shake {
+  10%,
+  90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  20%,
+  80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%,
+  50%,
+  70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%,
+  60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
+.buttonlist {
+  height: 7vh;
+  width: 80vw;
+  font-family: "Font";
+  border-style: none;
+  background-color: #accbe1;
+  border-radius: 1rem;
+  font-size: 1.5rem;
+  margin-top: 3rem;
+}
+
+@media screen and (min-width: 767px) {
+  .conteneur {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .petit-conteneur {
+    margin-left: 5rem;
+  }
+
+  .buttonlist {
+    width: 60vw;
+    font-size: 2rem;
+  }
+}
